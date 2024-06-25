@@ -1,0 +1,15 @@
+PS C:\Users\003Q3X744\Desktop\pooja-lab> terraform init
+
+Initializing the backend...
+Initializing modules...
+Downloading registry.terraform.io/terraform-aws-modules/ec2-instance/aws 5.6.1 for ec2-instance...
+╷
+│ Error: Failed to download module
+│
+│   on ec2-module.tf line 2:
+│    2: module "ec2-instance" {
+│
+│ Could not download module "ec2-instance" (ec2-module.tf:2) source code from
+│ "git::https://github.com/terraform-aws-modules/terraform-aws-ec2-instance?ref=4f8387d0925510a83ee3cb88c541beb77ce4bad6": error
+│ downloading 'https://github.com/terraform-aws-modules/terraform-aws-ec2-instance?ref=4f8387d0925510a83ee3cb88c541beb77ce4bad6':
+│ git must be available and on the PATH.
